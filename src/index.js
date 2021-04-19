@@ -3,10 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-
+import { StateProvider } from './stateProvider';
+import reducer, {initialState} from './reducer'
+import { Helmet } from 'react-helmet'
 ReactDOM.render(
+        
   <React.StrictMode>
+    <StateProvider initialState={initialState} reducer={reducer} >
+    <Helmet>
+          <title>Amazon By Hussain</title>
+        </Helmet>
     <App />
+    </StateProvider>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
