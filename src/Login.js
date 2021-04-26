@@ -42,7 +42,7 @@ function Login() {
       <Link to="/">
         <img
           className="login__logo"
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png"
+          src="https://user-images.githubusercontent.com/54637394/115992773-72d5e100-a59d-11eb-97e6-7891a6740042.png"
           alt=""
         />
       </Link>
@@ -54,15 +54,15 @@ function Login() {
           <input type="email" value={email} onChange={(event) => setEmail(event.target.value)} />
           <h5>Password:</h5>
           <input type="password" value={password} onChange={(event) => setPassword(event.target.value)} />
-          <button className="login__signInButton" type="submit" onClick={login}>
+          <button className="button_slide slide_right" type="submit" onClick={login}>
             Sign in
           </button>
         </form>
 
-        <p>By continuing, you agree to Amazon's Conditions of Use and Privacy Notice.</p>
+        <p>By continuing, you agree to Bridges's Conditions of Use and Privacy Notice.</p>
 
-        <button className="login__registerButton" onClick={register}>
-          Create your Amazon Account
+        <button className="button_slide slide_right" onClick={register}>
+          Create your Bridges Account
         </button>
       </div>
     </div>

@@ -13,7 +13,7 @@ function Checkout() {
         <div className="checkout">
 
         <div className="checkout__left">
-        <img className="checkout__ad" alt="" src="https://images-na.ssl-images-amazon.com/images/G/01/credit/img18/SecureCard/PF/SecureCard_PR_Header.jpg">
+        <img className="checkout__ad" alt="" src="https://cdn.sanity.io/images/0vv8moc6/drugtopics/1a3b1776bb42c0e858681a1e66181deedec241e6-1000x600.png">
         </img>
         {basket?.length === 0 ? (
           <div>

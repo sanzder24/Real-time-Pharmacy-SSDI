@@ -25,7 +25,7 @@ function Header() {
 
     return <nav className="header">
         <Link to="/">
-        <img className="header__logo" src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="" ></img>
+        <img className="header__logo" src="https://user-images.githubusercontent.com/54637394/115992773-72d5e100-a59d-11eb-97e6-7891a6740042.png" alt="" ></img>
         </Link>
         <div className="header__search">
         <input type="text" className="header__searchInput" />
@@ -46,14 +46,13 @@ function Header() {
         </Link>
         <Link className="header__link">
             <div className="header__option">
-            <span className="header__optionLineOne" >Your</span>
-            <span className="header__optionLineTwo">Prime</span>
+    
             </div>
         </Link>
         <Link to="/checkout" className="header__link" >
             <div className="header__optionBasket">
             <ShoppingBasketIcon />
-<span className="header__optionLineTwo header__basketCount">{basket?.length}</span>
+             <span className="header__optionLineTwo header__basketCount">{basket?.length}</span>
             </div>
             
         </Link>

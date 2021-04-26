@@ -3,76 +3,79 @@ import "./Home.css";
 import Product from "./Product";
 
 function Home() {
+  
+
     return (
         <div className="home">
            <img
            className="home__image" 
-           src="https://images-na.ssl-images-amazon.com/images/G/01/digital/video/merch/2019/Other/RB-1424_AcquisitionHolidayAssets/GW_DesktopHero_RB-1424_PV-AcquisitionHolidayAssets_1500x600._CB451871227_.jpg"
+           src="https://previews.123rf.com/images/kotoffei/kotoffei1812/kotoffei181200001/113563200-pharmacy-posters-set-with-flat-icons-vector-illustration-for-medical-or-healthcare-presentation-docu.jpg"
            alt=""
            />
            {/* Products */}
            <div className="home__row">
            <Product 
                id="12321341"
-               title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
-               price={29.99}
+               title="Redemsvir Antivirals"
+               price={2.99}
                rating={5}
-               image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
+               image="https://www.biospace.com/getasset/77178dc8-8e13-47d6-897c-ad3e7de860bb/"
            />
            <Product 
                id="89893333"
-               title="Fitbit Charge 4 With Built-in GPS"
-               price={228.0}
-               rating={4}
-               image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
+               title="Dexamethasone Steroids"
+               price={5.99}
+               rating={5}
+               image="https://images.indianexpress.com/2020/06/dexamethasone-1200.jpg"
            />
            <Product 
                id="92326678"
-               title="LG 108 cm (43 inches) 4K UHD Smart LED TV 43UM7290PTF (Ceramic Black) (2019 Model)"
-               price={449.99}
+               title="Vicks NyQuil and DayQuil SEVERE Cough"
+               price={9.99}
                rating={5}
-               image="https://images-na.ssl-images-amazon.com/images/I/912Mfy9s3GL._SL1500_.jpg"
+               image="https://www.cvs.com/bizcontent/merchandising/productimages/large/323900017788.jpg"
            />
            </div>
            <div className="home__row">
            <Product 
                id="67893426"
-               title="Apple iPhone 11 Pro Max (64GB) - Midnight Green"
-               price={999.99}
+               title="Privigen Antivirals"
+               price={9.99}
                rating={5}
-               image="https://m.media-amazon.com/images/I/61ers6OzvUL._AC_UY218_.jpg"
+               image="https://cdn.sanity.io/images/0vv8moc6/pharmacytimes/a76270bbe85f4d2ead64e99130377938a5167630-415x370.jpg"
            />
            <Product 
                id="73282018"
-               title="Amazon Echo (3rd Gen) – Improved sound, powered by Dolby (Black)"
-               price={120.00}
+               title="Black Face mask 30ct"
+               price={5.00}
                rating={4}
-               image="https://m.media-amazon.com/images/I/7128HRanJgL._AC_UY218_.jpg"
+               image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkEY5s4mA0KWe8lWGkVijEsdLmE6Js79e9sch0nvs_Z6dmyoq8TZz5lsh3F-1KkjJyPmrlNVVn&usqp=CAc"
            />
            <Product 
                id="23281018"
-               title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
-               price={1290.99}
+               title="Hand Sanitizer by Purell"
+               price={1.99}
                rating={5}
-               image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
+               image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUXa4IMWlbytiE3DLxdKz9qSqh_TkplIq7_gGOYBzs-1nj87C5adXJ0ZlqzONREUASn7x60jg&usqp=CAc"
            />  
            </div>
            <div className="home__row">
            <Product 
                id="32949249"
-               title="Samsung S19F350HNW 18.5-inch AH IPS LED Monitor (Black) (Not A TV)"
-               price={5500}
+               title="Bamlanivimab Antibodies"
+               price={7.20}
                rating={4}
-               image="https://m.media-amazon.com/images/I/81JNAFOB3lL._AC_UY218_.jpg"
+               image="https://media.npr.org/assets/img/2020/11/10/bam_lilly_ap_20315042063994_custom-4d41d31e7dc8526ad587d24bf0d30426f6cc55d2.jpg"
            />
            <Product 
                id="32729109"
-               title="HP 14 10th Gen Intel Core i5 Processor 14-inch Laptop (i5-1035G1/8GB/1TB HDD + 256GB SSD/Win 10 Home/MS Office/Natural Silver ),14s cs3009TU"
-               price={5500}
+               title="Casirivimab and Imdevimab Injections"
+               price={8.99}
                rating={4}
-               image="https://m.media-amazon.com/images/I/71QmFal-QfL._AC_UY218_.jpg"
+               image="https://www.idstewardship.com/wp-content/uploads/2020/11/Screen-Shot-2020-11-22-at-11.43.54-AM.png"
            />
            </div>
+
            
         </div>
     )

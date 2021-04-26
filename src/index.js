@@ -11,7 +11,7 @@ ReactDOM.render(
   <React.StrictMode>
     <StateProvider initialState={initialState} reducer={reducer} >
     <Helmet>
-          <title>Amazon By Hussain</title>
+          <title>Bridges</title>
         </Helmet>
     <App />
     </StateProvider>
